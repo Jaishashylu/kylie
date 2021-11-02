@@ -28,6 +28,9 @@ public class Diwali {
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File des=new File("C:\\Users\\shylu\\OneDrive\\Pictures\\diwa.png");
 		FileUtils.copyFile(src, des);
+		
+		
+		System.out.println("eiy");
 	}
 
 }
